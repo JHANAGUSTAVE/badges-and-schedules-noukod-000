@@ -12,7 +12,7 @@ end
 
 def def assign_rooms(names_array)
   assigned_rooms_array = []
-  names_array.each { |el, counter| assigned_rooms_array <<
+  names_array.each_with_index  { |el, counter| assigned_rooms_array <<
   "Hello, #{el}! You'll be assigned to room #{counter+1}!" }
   assigned_rooms_array
 end
