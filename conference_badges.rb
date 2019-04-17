@@ -9,8 +9,7 @@ badges_array = []
   badges_array
 end
 
-
-def def assign_rooms(names_array)
+def assign_rooms(names_array)
   assigned_rooms_array = []
   names_array.each_with_index  { |el, counter| assigned_rooms_array <<
   "Hello, #{el}! You'll be assigned to room #{counter+1}!" }
